@@ -12,12 +12,7 @@ fun password() {
             .size(350.dp, 100.dp)
             .padding(top = 30.dp, start = 30.dp),
         visualTransformation = PasswordVisualTransformation(),
-        trailingIcon = {
-            Icon(
-                painter = painterResource(id = R.drawable.baseline_disabled_visible_24),
-                contentDescription = "Password isn't visible",
-            )
-        }
+
 
     )
 
